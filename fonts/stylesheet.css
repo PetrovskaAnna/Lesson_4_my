@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'AcademyC';
+    src: url('AcademyC-Bold.woff2') format('woff2'),
+        url('AcademyC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AcademyC';
+    src: url('AcademyC-Italic.woff2') format('woff2'),
+        url('AcademyC-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Leelawadee';
+    src: url('Leelawadee.woff2') format('woff2'),
+        url('Leelawadee.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DilleniaUPC';
+    src: url('DilleniaUPC.woff2') format('woff2'),
+        url('DilleniaUPC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bodoni Bk BT';
+    src: url('BodoniBT-BookItalic.woff2') format('woff2'),
+        url('BodoniBT-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JasmineUPC';
+    src: url('JasmineUPCBoldItalic.woff2') format('woff2'),
+        url('JasmineUPCBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

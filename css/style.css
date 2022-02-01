@@ -1,0 +1,150 @@
+/* Підключення шрифтів */
+
+/* google-fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Klee+One:regular,600&display=swap");
+
+/* Online font-face generator*/
+
+@font-face {
+	font-family: 'AcademyC';
+	src: url(../fonts/AcademyC-Bold.woff2) format('woff2'),url(../fonts/AcademyC-Bold.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'AcademyC';
+	src: url(../fonts/AcademyC-Italic.woff2) format('woff2'),url(../fonts/BodoniBT-BookItalic.woff) format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Leelawadee';
+	src: url(../fonts/Leelawadee.woff2) format('woff2'),url(../fonts/Leelawadee.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'JasmineUPC';
+	src: url(../fonts/JasmineUPCBoldItalic.woff2) format('woff2'),url(../fonts/JasmineUPCBoldItalic.woff) format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+.headtr {
+	font-family: "JasmineUPC", sans-serif;
+	color: mediumseagreen;
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+.conteiner {
+	font-family: 'Leelawadee', sans-serif;
+	line-height: 160%;
+	font-size: 18px;
+	text-align: center;
+}
+.main-title {
+	font-family: 'AcademyC', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: orangered;
+	text-decoration: underline;
+	text-shadow: 10px 10px 10px palevioletred;
+
+}
+.raspberry-vitamins {
+	color: rgb(28, 124, 68);
+}
+.red{
+	color: rgb(250, 57, 73);
+}
+.purple {
+	color: rgb(128, 3, 96);
+}
+.gold {
+	color: rgb(198, 204, 107);
+}
+.black{
+	color: rgb(44, 22, 24);
+}
+.red, .purple, .gold, .black {
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+h2.title-list {
+	font-family: 'AcademyC', sans-serif;
+	font-size: 24px;
+	color: rgb(231, 54, 54);
+	text-decoration: underline;
+	text-shadow: 5px 5px 10px rgb(231, 110, 120);
+}
+ul.list > li {
+	color: coral;
+	font-style: italic;
+}
+.history-ruspberry {
+	color: rgb(240, 200, 22);
+}
+.contain-ruspberry {
+	color: green;
+	word-spacing: 10px;
+}
+.health-ruspberry {
+	color: darkturquoise;
+}
+.components-ruspberry {
+	font-family: 'Klee+One';
+	font-size: 18px;
+}
+.components-ruspberry__main-title {
+	font-family: 'AcademyC', sans-serif;
+	font-size: 24px;
+	color: rgb(231, 54, 54);
+	text-decoration: underline;
+	text-shadow: 5px 5px 10px rgb(231, 110, 120);
+
+}
+.components-ruspberry__title {
+	font-family: 'AcademyC', sans-serif;
+	font-size: 24px;
+	color: rgb(104, 9, 80);
+	text-decoration: underline;
+	text-shadow: 5px 5px 10px rgb(231, 110, 120);
+	letter-spacing: 5px;
+	
+}
+.components-ruspberry__text {
+	color: rgb(70, 6, 25);
+}
+.conclusion-text {
+	text-shadow: 5px 5px 10px rgb(228, 139, 168);
+	color: rgb(19, 1, 8);
+	font-size: 20px;
+	font-weight: bold;
+}
+a {
+	text-decoration: underline;
+	color: indigo;
+	font-weight: 700;
+}
+.model {
+	color: crimson;
+	font-size: 50px;
+	font-weight: 500;
+}
+.footer {
+	text-align: center;
+	font-size: 16px;
+}
